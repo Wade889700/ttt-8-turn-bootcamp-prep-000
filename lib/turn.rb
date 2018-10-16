@@ -21,11 +21,6 @@ def valid_move?(board,index)
   else
     return false
   end
-  puts ("   |   |   ")
-  puts ("-----------")
-  puts ("   | X |   ")
-  puts ("-----------")
-  puts ("   |   |   ")
 end
 
 def turn(board)
