@@ -36,7 +36,6 @@ def turn(board)
       move(board, index)
       puts display_board(board)
     else
-      puts "wrong"
       turn(board)
     end
 end
