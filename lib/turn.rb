@@ -32,7 +32,7 @@ def turn(board)
   puts"asks the user for input by printing: Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
-    while  valid_move?(board,index)== true
+    if valid_move?(board,index)== true
       board[index]
      display_board(board)
   end
